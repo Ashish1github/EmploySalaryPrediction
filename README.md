@@ -1,5 +1,4 @@
 # EmploySalaryPrediction
-# Employee Salary Classification
 
 This project predicts whether an employee earns more than $50K or not based on demographic and work-related features. It includes a web application built using Streamlit and a machine learning model trained on the UCI Adult Income dataset.
 
@@ -11,10 +10,13 @@ This project predicts whether an employee earns more than $50K or not based on d
 - Trained ML model using scikit-learn
 
 ## Dataset
+This project uses the **Adult Income Dataset**, which is included as a CSV file in the repository (`adult.csv`).
 
-The model is trained on the [UCI Adult Income Dataset](https://archive.ics.uci.edu/ml/datasets/adult). The target variable is salary class: `<=50K` or `>50K`.
+- **File Name**: `adult.csv`
+- **Target Variable**: `salary` (either `<=50K` or `>50K`)
+The model is trained on the . The target variable is salary class: `<=50K` or `>50K`.
 
-### Features Used:
+## Features Used:
 - age
 - workclass
 - fnlwgt
